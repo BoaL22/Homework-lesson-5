@@ -30,13 +30,11 @@ void ShowArray(int[] array)
     Console.WriteLine();
     Console.WriteLine();
 
-        int even = 0;
         for (int a = 0; a < array.Length; a++) 
         {
             if (array[a] % 2 == 0) 
             {
                 Console.WriteLine($"{array[a]} - чётное число");
-                even++;
             }
             else
             {
